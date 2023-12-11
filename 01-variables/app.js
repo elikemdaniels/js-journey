@@ -1,1 +1,3 @@
-alert('JS Fundamentals');
+const student = 'Jason';
+
+alert(student);
