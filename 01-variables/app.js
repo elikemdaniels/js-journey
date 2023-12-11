@@ -1,3 +1,5 @@
+// VARIABLES
+
 // let admin;
 // let student = 'John';
 
