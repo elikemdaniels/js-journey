@@ -1,3 +1,6 @@
 const student = 'Jason';
+let teacher;
 
-alert(student);
+teacher = student;
+
+alert(teacher);
