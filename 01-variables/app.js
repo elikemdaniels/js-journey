@@ -1,1 +1,1 @@
-alert('JS Basics');
+alert('JS Fundamentals');
