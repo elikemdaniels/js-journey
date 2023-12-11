@@ -1,6 +1,9 @@
-const student = 'Jason';
-let teacher;
+// let admin;
+// let student = 'John';
 
-teacher = student;
+// admin = student;
 
-alert(teacher);
+// alert(admin);
+
+// let ourPlanet = 'Earth';
+// let currentVisitor = 'Edinam';
