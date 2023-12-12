@@ -14,3 +14,6 @@
 // Confirm
 // let isBoss = confirm('Are you the boos?');
 // alert(isBoss);
+
+// let name = prompt(`What's your name?`, '');
+// alert(name);
