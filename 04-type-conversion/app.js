@@ -9,4 +9,4 @@
 // console.log(typeof Number(figure));
 
 // Boolean Conversion
-// console.log(Boolean(' '));
+// console.log(Boolean(1));
