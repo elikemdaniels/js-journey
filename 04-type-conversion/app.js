@@ -1,12 +1,6 @@
-// TYPE CONVERSION
+// NUMBERS
 
-// String Conversion
-// const num = 500;
-// console.log(typeof String(num));
-
-// Number Conversion
-// const figure = '4500';
-// console.log(typeof Number(figure));
-
-// Boolean Conversion
-// console.log(Boolean(1));
+// Increment & Decrement
+let counter = 1;
+counter++;
+console.log(counter);
