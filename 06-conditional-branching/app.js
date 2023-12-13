@@ -8,5 +8,11 @@
 //   alert('Wrong answer. Try again.');
 // }
 
-let accessAllowed;
 let age = prompt('How old are you?');
+age = Number(age);
+
+// if (age >= 18) {
+//   accessAllowed = alert(`You're ${age} years old. You can vote.`);
+// } else {
+//   accessAllowed = alert(`You're ${age} years old. You cannot vote.`);
+// }
