@@ -5,5 +5,7 @@
 // console.log(typeof String(num));
 
 // Number Conversion
-const figure = '4500';
-console.log(typeof Number(figure));
+// const figure = '4500';
+// console.log(typeof Number(figure));
+
+// Boolean Conversion
