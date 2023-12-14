@@ -14,10 +14,10 @@
 //     : console.log('We are open for business.');
 
 // Logical AND
-let hour = 12;
-let minute = 30;
+// let hour = 12;
+// let minute = 30;
 
-let message =
-  hour === 10 && minute === 30
-    ? console.log('Time to enter.')
-    : console.log(`Sorry, we've closed.`);
+// let message =
+//   hour === 10 && minute === 30
+//     ? console.log('Time to enter.')
+//     : console.log(`Sorry, we've closed.`);
