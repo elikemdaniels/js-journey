@@ -21,3 +21,11 @@
 //   hour === 10 && minute === 30
 //     ? console.log('Time to enter.')
 //     : console.log(`Sorry, we've closed.`);
+
+// Nullish Coalescing
+
+// let firstName = null;
+// let lastName;
+// let nickName;
+
+// console.log(firstName ?? lastName ?? nickName ?? 'Anonymous');
