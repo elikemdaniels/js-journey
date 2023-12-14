@@ -17,9 +17,24 @@
 //     code
 // }
 
-let foodItems = ['tomato', 'pepper', 'onion', 'garlic', 'carrot', 'lettuce'];
-let foodItem = 0;
+// Loop Exercise
 
-for (; foodItem < foodItems.length; foodItem++) {
-  console.log(foodItem);
+// let myCars = ['tacoma', 'hilux', 'wrangler', 'escalade', 'camry', 'bentley'];
+
+// for (let myCar = 0; myCar < myCars.length; myCar++) {
+//   console.log(myCars[myCar]);
+// }
+
+// while (myCar < myCars.length) {
+//   console.log(myCars[myCar]);
+//   myCar++;
+// }
+
+// do {
+//   console.log(myCars[myCar]);
+//   myCar++;
+// } while (myCar < myCars.length);
+
+for (let myCar = 0; myCar < myCars.length; myCar++) {
+  console.log(myCars[myCar]);
 }
