@@ -26,6 +26,7 @@
 let message = `Hello, JavaScript`;
 
 function showMessage() {
+  message = 'Hi';
   console.log(message);
 }
 
