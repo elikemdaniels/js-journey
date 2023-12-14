@@ -14,9 +14,9 @@
 // showMessage('elikem');
 
 // Local Variables
-function showMessage() {
-  let message = 'Hello, JavaScript';
-  console.log(message);
-}
+// function showMessage(username) {
+//   let message = `Hello, ${username}. JavaScript is amazing.`;
+//   console.log(message);
+// }
 
-showMessage();
+// showMessage('elikem'.toUpperCase());
