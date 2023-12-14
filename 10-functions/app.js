@@ -23,7 +23,7 @@
 
 // Outer Variables
 
-let message = `Hello, JS`;
+let message = `Hello, JavaScript`;
 
 function showMessage() {
   console.log(message);
