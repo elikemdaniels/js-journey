@@ -23,11 +23,20 @@
 
 // Outer Variables
 
-let message = `Hello, JavaScript`;
+// let message = `Hello, JavaScript`;
 
-function showMessage() {
-  message = 'Hi';
-  console.log(message);
-}
+// function showMessage() {
+//   message = 'Hi';
+//   console.log(message);
+// }
 
-showMessage();
+// showMessage();
+
+// Parameters & Arguments
+
+// function showMessage(from, message) {
+//   from = undefined;
+//   console.log(`${from ?? 'Anonymous'}: ${message ?? 'No message'}.`);
+// }
+
+// showMessage('How are you?');
