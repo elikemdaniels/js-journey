@@ -20,3 +20,13 @@
 // }
 
 // showMessage('elikem'.toUpperCase());
+
+// Outer Variables
+
+let message = `Hello, JS`;
+
+function showMessage() {
+  console.log(message);
+}
+
+showMessage();
