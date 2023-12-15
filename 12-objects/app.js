@@ -25,6 +25,16 @@ function makeUser(name, age, gender, country) {
   };
 }
 
-let newUser = makeUser('Elikem', 30, 'Male', 'Ghana');
-userCountry = newUser.country;
-console.log('age' in newUser);
+let user = makeUser('Elikem', 30, 'Male', 'Ghana');
+// userCountry = newUser.country;
+// console.log('age' in newUser);
+
+// For in loop
+
+// for (let userDetails in newUser) {
+//   console.log(userDetails);
+// }
+
+for (let userKeys in user) {
+  console.log(user[userKeys]);
+}
