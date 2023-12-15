@@ -35,6 +35,19 @@ let user = makeUser('Elikem', 30, 'Male', 'Ghana');
 //   console.log(userDetails);
 // }
 
-for (let userKeys in user) {
-  console.log(user[userKeys]);
+// for (let prop in user) {
+//   console.log(user[prop]);
+// }
+
+let countryCodes = {
+  235: 'Togo',
+  233: 'Ghana',
+  234: 'Nigeria',
+  212: 'Zimbabwe',
+};
+
+countryCodes.new = 'Zambia';
+
+for (let code in countryCodes) {
+  console.log(countryCodes[code]);
 }
