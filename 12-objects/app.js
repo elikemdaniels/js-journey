@@ -46,8 +46,6 @@ let countryCodes = {
   212: 'Zimbabwe',
 };
 
-countryCodes.new = 'Zambia';
-
 for (let code in countryCodes) {
   console.log(countryCodes[code]);
 }
