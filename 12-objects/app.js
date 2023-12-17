@@ -46,6 +46,14 @@ let countryCodes = {
   212: 'Zimbabwe',
 };
 
-for (let code in countryCodes) {
-  console.log(countryCodes[code]);
+// for (let code in countryCodes) {
+//   console.log(countryCodes[code]);
+// }
+
+console.log(countryCodes[235]);
+
+function getCountry(code) {
+  return countryCodes[code];
 }
+
+console.log(getCountry(234));
