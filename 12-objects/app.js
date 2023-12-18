@@ -16,16 +16,16 @@
 
 // alert(`The teacher's ${key} is ${teacher[key]}.`);
 
-function makeUser(name, age, gender, country) {
-  return {
-    name,
-    age,
-    gender,
-    country,
-  };
-}
+// function makeUser(name, age, gender, country) {
+//   return {
+//     name,
+//     age,
+//     gender,
+//     country,
+//   };
+// }
 
-let user = makeUser('Elikem', 30, 'Male', 'Ghana');
+// let user = makeUser('Elikem', 30, 'Male', 'Ghana');
 // userCountry = newUser.country;
 // console.log('age' in newUser);
 
@@ -39,21 +39,41 @@ let user = makeUser('Elikem', 30, 'Male', 'Ghana');
 //   console.log(user[prop]);
 // }
 
-let countryCodes = {
-  235: 'Togo',
-  233: 'Ghana',
-  234: 'Nigeria',
-  212: 'Zimbabwe',
-};
+// let countryCodes = {
+//   235: 'Togo',
+//   233: 'Ghana',
+//   234: 'Nigeria',
+//   212: 'Zimbabwe',
+// };
 
 // for (let code in countryCodes) {
 //   console.log(countryCodes[code]);
 // }
 
-console.log(countryCodes[235]);
+// console.log(countryCodes[235]);
 
-function getCountry(code) {
-  return countryCodes[code];
-}
+// function getCountry(code) {
+//   return countryCodes[code];
+// }
 
-console.log(getCountry(234));
+// console.log(getCountry(234));
+
+let student = {
+  name: 'Elikem',
+  age: 30,
+  gender: 'Male',
+  country: 'Ghana',
+  favColor: 'Blue',
+  hobbies: ['Sports', 'Reading', 'Music'],
+  isMarried: true,
+  isHappy: true,
+  favNumbers: [1, 2, 3, 4, 5],
+};
+
+// console.log('favColor' in student);
+
+// for (let prop in student) {
+//   console.log(student[prop]);
+// }
+
+console.log(student.age);
