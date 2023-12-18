@@ -58,7 +58,7 @@
 
 // console.log(getCountry(234));
 
-let student = {
+const student = {
   name: 'Elikem',
   age: 30,
   gender: 'Male',
@@ -70,11 +70,6 @@ let student = {
   favNumbers: [1, 2, 3, 4, 5],
 };
 
-let admin = student;
-admin.name = 'Adam';
-
-// console.log('favColor' in student);
-
 // for (let prop in student) {
 //   console.log(student[prop]);
 // }
@@ -82,5 +77,13 @@ admin.name = 'Adam';
 // console.log(student.age);
 
 // Object References & Copying
-console.log(admin);
-console.log(student);
+// let admin = student;
+// student.name = 'Lumak';
+
+// console.log(admin.name);
+
+let teacher = {};
+
+Object.assign(teacher, student);
+
+console.log(teacher);
