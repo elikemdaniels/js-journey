@@ -70,10 +70,17 @@ let student = {
   favNumbers: [1, 2, 3, 4, 5],
 };
 
+let admin = student;
+admin.name = 'Adam';
+
 // console.log('favColor' in student);
 
 // for (let prop in student) {
 //   console.log(student[prop]);
 // }
 
-console.log(student.age);
+// console.log(student.age);
+
+// Object References & Copying
+console.log(admin);
+console.log(student);
