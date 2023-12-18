@@ -68,7 +68,12 @@ const student = {
   isMarried: true,
   isHappy: true,
   favNumbers: [1, 2, 3, 4, 5],
+  sayHello() {
+    console.log(`Hello, ${student.name}`);
+  },
 };
+
+student.sayHello();
 
 // for (let prop in student) {
 //   console.log(student[prop]);
@@ -82,8 +87,8 @@ const student = {
 
 // console.log(admin.name);
 
-let teacher = {};
+// let teacher = {};
 
-Object.assign(teacher, student);
+// Object.assign(teacher, student);
 
-console.log(teacher);
+// console.log(teacher);
