@@ -1,63 +1,10 @@
-// ONJECTS
+// OBJECTS
 
-// Object constructor syntax
-// let student = new Object();
-// console.log(student);
-
-// Object literal syntax
-// let teacher = {
-//   name: 'Jeremy',
-//   age: 35,
-//   class: 'Science',
-//   isNew: false,
-// };
-
-// let key = prompt('What do you want to know about the teacher?', 'name');
-
-// alert(`The teacher's ${key} is ${teacher[key]}.`);
-
-// function makeUser(name, age, gender, country) {
-//   return {
-//     name,
-//     age,
-//     gender,
-//     country,
-//   };
-// }
-
-// let user = makeUser('Elikem', 30, 'Male', 'Ghana');
-// userCountry = newUser.country;
-// console.log('age' in newUser);
-
-// For in loop
-
-// for (let userDetails in newUser) {
-//   console.log(userDetails);
-// }
-
-// for (let prop in user) {
-//   console.log(user[prop]);
-// }
-
-// let countryCodes = {
-//   235: 'Togo',
-//   233: 'Ghana',
-//   234: 'Nigeria',
-//   212: 'Zimbabwe',
-// };
-
-// for (let code in countryCodes) {
-//   console.log(countryCodes[code]);
-// }
-
-// console.log(countryCodes[235]);
-
-// function getCountry(code) {
-//   return countryCodes[code];
-// }
-
-// console.log(getCountry(234));
-
+/**
+ * Creates a student object with properties like name, age, gender etc.
+ * Calculates the number of properties in the student object using Object.keys.
+ * Logs the number of properties to the console.
+ */
 const student = {
   name: 'Elikem',
   age: 30,
@@ -74,21 +21,3 @@ const student = {
 };
 const studentLength = Object.keys(student).length;
 console.log(studentLength);
-
-// for (let prop in student) {
-//   console.log(student[prop]);
-// }
-
-// console.log(student.age);
-
-// Object References & Copying
-// let admin = student;
-// student.name = 'Lumak';
-
-// console.log(admin.name);
-
-// let teacher = {};
-
-// Object.assign(teacher, student);
-
-// console.log(teacher);
