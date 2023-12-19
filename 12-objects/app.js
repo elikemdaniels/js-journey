@@ -72,8 +72,8 @@ const student = {
     console.log(`Hello, ${student.name}`);
   },
 };
-
-student.sayHello();
+const studentLength = Object.keys(student).length;
+console.log(studentLength);
 
 // for (let prop in student) {
 //   console.log(student[prop]);
