@@ -13,7 +13,6 @@ const student = {
   favColor: 'Blue',
   hobbies: ['Sports', 'Reading', 'Music'],
   isMarried: true,
-  isHappy: true,
   favNumbers: [1, 2, 3, 4, 5],
   sayHello() {
     console.log(`Hello, ${student.name}`);
