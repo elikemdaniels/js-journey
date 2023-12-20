@@ -1,5 +1,6 @@
 // STRINGS
 let username = 'Widget with moo';
+let str = 'elikem';
 
 // console.log(username[0]);
 // console.log(username[username.length - 2]);
@@ -9,6 +10,8 @@ let username = 'Widget with moo';
 // console.log(username.indexOf('with'));
 // console.log(username.indexOf('moo'));
 
-if (username.includes('Widget')) {
-  console.log('Found it!');
-}
+// if (username.includes('Widget')) {
+//   console.log('Found it!');
+// }
+
+console.log(str[0].toUpperCase() + str.slice(1));
