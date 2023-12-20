@@ -17,3 +17,5 @@ let num = 2.3456789;
 console.log(Math.round(num * 100) / 100); // round to 2 decimals
 console.log(Math.round(num * 1000) / 1000); // round to 3 decimals
 console.log(Math.round(num * 10000) / 10000); // round to 4 decimals
+
+console.log(num.toFixed(2)); // round to 2 decimals, and returns a string value
