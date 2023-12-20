@@ -1,12 +1,5 @@
-// TYPE CONVERSION
+// NUMBERS
 
-// String Conversion
-// const num = 500;
-// console.log(typeof String(num));
+let num = 255;
 
-// Number Conversion
-// const figure = '4500';
-// console.log(typeof Number(figure));
-
-// Boolean Conversion
-// console.log(Boolean(1));
+console.log((67839406578907654 - 7656789).toString(36));
