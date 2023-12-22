@@ -74,10 +74,26 @@
 
 // console.log(styles);
 
-let cars = ['BMW', 'Volvo', 'Saab', 'Ford', 'Tesla', 'Jaguar', 'Land Rover'];
+let newCars = ['BMW', 'Volvo', 'Saab', 'Ford', 'Tesla', 'Jaguar', 'Land Rover'];
 
-console.log(cars.slice(0, 3));
-console.log(cars);
+let usedCars = ['Toyota', 'VW', 'Benz', 'Range Rover', 'Mazda'];
 
-console.log(cars.splice(0, 3));
-console.log(cars);
+let strangeCars = {
+  0: 'Pocco',
+  1: 'Rex',
+  2: 'Buvaro',
+  3: 'Dodge',
+  [Symbol.isConcatSpreadable]: true,
+  length: 4,
+};
+// console.log(cars.slice(0, 3));
+// console.log(cars);
+
+// console.log(cars.splice(0, 3));
+// console.log(cars);
+
+let allCars = usedCars.concat(newCars).concat(strangeCars);
+
+console.log(allCars);
+
+allCars.forEach((car) => console.log(car));
