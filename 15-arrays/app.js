@@ -51,6 +51,6 @@ console.log(cars);
 //   car++;
 // } while (car < cars.length);
 
-// for (let car in cars) {
-//   console.log(cars[car]);
-// }
+for (let car in cars) {
+  console.log(cars[car]);
+}
