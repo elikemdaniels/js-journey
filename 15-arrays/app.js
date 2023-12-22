@@ -1,7 +1,5 @@
 // ARRAYS
 
-// let cars = ['BMW', 'Volvo', 'Saab', 'Ford'];
-
 // console.log(cars);
 
 // cars.pop();
@@ -13,7 +11,6 @@
 // cars.unshift('Toyota');
 // console.log(cars);
 
-// cars.push('Tesla', 'Jaguar', 'Land Rover', 'Hyundai');
 // console.log(cars);
 // console.log(cars.length);
 
@@ -58,11 +55,29 @@
 // console.log(cars == newCars);
 // console.log(cars === newCars);
 
-let fruits = ['Apples', 'Pear', 'Orange'];
+// let fruits = ['Apples', 'Pear', 'Orange'];
 
-// push a new value into the "copy"
-let shoppingCart = fruits;
-shoppingCart.push('Banana');
+// // push a new value into the "copy"
+// let shoppingCart = fruits;
+// shoppingCart.push('Banana');
 
-// what's in fruits?
-console.log(fruits.length); // ?
+// // what's in fruits?
+// console.log(fruits.length); // ?
+
+// let styles = ['Jazz', 'Blues', 'Duu'];
+// styles.push('Rock-n-Roll');
+// let middleStyle = Math.floor(styles.length / 2);
+
+// console.log(styles[middleStyle]);
+
+// styles.unshift('Rap', 'Reggae');
+
+// console.log(styles);
+
+let cars = ['BMW', 'Volvo', 'Saab', 'Ford', 'Tesla', 'Jaguar', 'Land Rover'];
+
+console.log(cars.splice(-1, 1, 'Raptor', 'Tacoma'));
+
+console.log(cars);
+
+console.log(cars.length);
