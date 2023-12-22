@@ -83,8 +83,14 @@ let strangeCars = {
   1: 'Rex',
   2: 'Buvaro',
   3: 'Dodge',
+  4: 'Chrysler',
+  5: 'Jeep',
+  6: 'Air Rover',
+  7: 'Picanto',
+  8: 'Chevrolet',
+  9: 'Mooa',
   [Symbol.isConcatSpreadable]: true,
-  length: 4,
+  length: 10,
 };
 // console.log(cars.slice(0, 3));
 // console.log(cars);
@@ -92,8 +98,30 @@ let strangeCars = {
 // console.log(cars.splice(0, 3));
 // console.log(cars);
 
-let allCars = usedCars.concat(newCars).concat(strangeCars);
+// let allCars = usedCars.concat(newCars).concat(strangeCars);
 
-console.log(allCars);
+// console.log(allCars);
 
-allCars.forEach((car) => console.log(car));
+// allCars.forEach((car) => console.log(car));
+
+// console.log(allCars.indexOf('BMW'));
+
+// console.log(allCars.includes('BMW'));
+
+let students = [
+  { id: 1, name: 'John', age: 20 },
+  { id: 2, name: 'Jane', age: 21 },
+  { id: 3, name: 'Johnny', age: 22 },
+  { id: 4, name: 'Jill', age: 23 },
+  { id: 5, name: 'Jake', age: 24 },
+  { id: 6, name: 'Jessica', age: 25 },
+  { id: 7, name: 'Jenny', age: 26 },
+];
+
+let filteredStudents = students.filter((student) =>
+  student.name.startsWith('J')
+);
+let mappedStudents = students.map((student) => student.name.length);
+
+console.log(filteredStudents);
+console.log(mappedStudents);
