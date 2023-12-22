@@ -54,3 +54,6 @@ console.log(cars);
 for (let car in cars) {
   console.log(cars[car]);
 }
+
+console.log(cars == newCars);
+console.log(cars === newCars);
