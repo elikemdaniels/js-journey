@@ -123,5 +123,5 @@ let filteredStudents = students.filter((student) =>
 );
 let mappedStudents = students.map((student) => student.name.length);
 
-console.log(filteredStudents);
-console.log(mappedStudents);
+console.log(filteredStudents.sort((a, b) => a.name.localeCompare(b.name)));
+console.log(mappedStudents.reverse());
