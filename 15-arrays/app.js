@@ -125,3 +125,11 @@ let mappedStudents = students.map((student) => student.name.length);
 
 console.log(filteredStudents.sort((a, b) => a.name.localeCompare(b.name)));
 console.log(mappedStudents.reverse());
+
+// Split & Join
+// let drivers =
+//   'Johnny, Jake, Jessica, Jenny, Samuel, Emmanuel, Daniels, Derrick';
+
+// let driversLIst = drivers.split(', ');
+
+// console.log(driversLIst.join(', '));
