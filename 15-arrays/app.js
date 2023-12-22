@@ -39,14 +39,14 @@ console.log(cars);
 //   console.log(car);
 // }
 
-let car = 0;
+// let car = 0;
 
 // while (car < cars.length) {
 //   console.log(cars[car]);
 //   car++;
 // }
 
-do {
-  console.log(cars[car]);
-  car++;
-} while (car < cars.length);
+// do {
+//   console.log(cars[car]);
+//   car++;
+// } while (car < cars.length);
