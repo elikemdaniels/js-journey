@@ -76,8 +76,8 @@
 
 let cars = ['BMW', 'Volvo', 'Saab', 'Ford', 'Tesla', 'Jaguar', 'Land Rover'];
 
-console.log(cars.splice(-1, 1, 'Raptor', 'Tacoma'));
-
+console.log(cars.slice(0, 3));
 console.log(cars);
 
-console.log(cars.length);
+console.log(cars.splice(0, 3));
+console.log(cars);
