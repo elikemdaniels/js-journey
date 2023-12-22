@@ -31,6 +31,22 @@ console.log(cars);
 console.log((newCars[0] = 'BMW'));
 console.log(cars);
 
-for (let car = 0; car < cars.length; car++) {
+// for (let car = 0; car < cars.length; car++) {
+//   console.log(cars[car]);
+// }
+
+// for (let car of cars) {
+//   console.log(car);
+// }
+
+let car = 0;
+
+// while (car < cars.length) {
+//   console.log(cars[car]);
+//   car++;
+// }
+
+do {
   console.log(cars[car]);
-}
+  car++;
+} while (car < cars.length);
