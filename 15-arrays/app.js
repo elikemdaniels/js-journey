@@ -133,3 +133,17 @@ console.log(mappedStudents.reverse());
 // let driversLIst = drivers.split(', ');
 
 // console.log(driversLIst.join(', '));
+
+// const obj = {
+//   id: 1,
+//   getId: () => this.id,
+// };
+
+const obj = {
+  id: 12,
+  getId: function mu() {
+    return this.id;
+  },
+};
+
+console.log(obj.getId());
