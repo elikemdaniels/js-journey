@@ -138,12 +138,3 @@ console.log(mappedStudents.reverse());
 //   id: 1,
 //   getId: () => this.id,
 // };
-
-const obj = {
-  id: 12,
-  getId: function mu() {
-    return this.id;
-  },
-};
-
-console.log(obj.getId());
