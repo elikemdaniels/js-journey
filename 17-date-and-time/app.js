@@ -1,1 +1,4 @@
 // DATE & TIME
+
+let currentDate = new Date();
+console.log(currentDate);
