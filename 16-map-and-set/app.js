@@ -27,3 +27,28 @@ let students = [
 // visitCount.set(students[0].attendace, 245);
 
 // console.log(visitCount.get(students[0].attendace));
+
+let recipeMap = new Map([
+  ['tomato', 120],
+  ['pepper', 100],
+  ['onion', 150],
+  ['garlic', 100],
+  ['ginger', 100],
+  ['cucumber', 100],
+]);
+
+// for (let recipeItem of recipeMap.keys()) {
+//   console.log(recipeItem);
+// }
+
+// for (let recipeItemCount of recipeMap.values()) {
+//   console.log(recipeItemCount);
+// }
+
+// for (let entries of recipeMap) {
+//   console.log(entries);
+// }
+
+let [recipeKey, recipeValue] = recipeMap.entries().next().value;
+
+console.log(recipeValue);
