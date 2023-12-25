@@ -20,5 +20,3 @@ let student = {
 // console.log(student.favoriteCar);
 // console.log(JSON.stringify(student, null, 4));
 // console.log(JSON.parse(JSON.stringify(student, ['id', 'name', 'age'])));
-
-);
