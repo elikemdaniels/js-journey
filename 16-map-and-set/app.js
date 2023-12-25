@@ -49,6 +49,21 @@ let recipeMap = new Map([
 //   console.log(entries);
 // }
 
-let [recipeKey, recipeValue] = recipeMap.entries().next().value;
+// let [recipeKey, recipeValue] = recipeMap.entries().next().value;
 
-console.log(recipeValue);
+// console.log(recipeValue);
+
+// let carsBrands = ['mercedes', 'toyota', 'honda'];
+
+// let [firstCar, secondCar, thirdCar] = carsBrands;
+
+// console.log(firstCar);
+
+let student = {};
+
+[student.id, student.age] = [1, 20];
+[student.firstName, student.lastName] = 'Mercedes Daniels'.split(' ');
+
+console.log(
+  `The best student is ${student.firstName} ${student.lastName}. She has a student ID of ${student.id} and is ${student.age} years old.`
+);
