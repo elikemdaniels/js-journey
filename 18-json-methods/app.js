@@ -8,7 +8,7 @@ let student = {
   attendace: 120,
   favoriteCar: {
     model: 'BMW',
-    color: 'black',
+    color: 'cement-grey',
     year: 2018,
   },
 };
