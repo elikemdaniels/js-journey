@@ -68,5 +68,7 @@
 //   header.style.color = getLuminance(randomColor) < 128 ? 'white' : 'black';
 // });
 
-console.log('Hello World!', 'Elikem');
-console.log('hello, world!', "how's it going?");
+let moo = 'hello, world';
+let maa = 'how are you';
+
+console.log(moo, maa);
