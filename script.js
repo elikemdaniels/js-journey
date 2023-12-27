@@ -29,12 +29,21 @@
 
 // REGISTERED USERS LIST
 
-const registeredUsers = [
-  'olamide',
-  'emeka',
-  'akinboye',
-  'oluwaseun',
-  'oreogundipe',
-  'chiamaka',
-  'ikenna',
-];
+// const registeredUsers = [
+//   'olamide',
+//   'emeka',
+//   'akinboye',
+//   'oluwaseun',
+//   'oreogundipe',
+//   'chiamaka',
+//   'ikenna',
+// ];
+
+const firstName = 'John';
+const lastName = '';
+
+if (!!firstName && !!lastName) {
+  console.log(`You have a full name, ${firstMan} ${lastName}.`);
+} else {
+  console.log(`You have only first name, ${firstName}.`);
+}
