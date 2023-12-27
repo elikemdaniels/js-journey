@@ -39,11 +39,20 @@
 //   'ikenna',
 // ];
 
-const firstName = 'John';
-const lastName = '';
+// const firstName = 'John';
+// const lastName = '';
 
-if (!!firstName && !!lastName) {
-  console.log(`You have a full name, ${firstMan} ${lastName}.`);
-} else {
-  console.log(`You have only first name, ${firstName}.`);
-}
+// if (!firstName && !lastName) {
+//   console.log(`You have a full name, ${firstMan} ${lastName}.`);
+// } else {
+//   console.log(`You have only first name, ${firstName}.`);
+// }
+
+// EMAIL ADDRESS CREATOR
+
+let username = 'edinam';
+let emailAddress = username.slice(1, -1) + '@protonmail.com';
+let conatainsWord = emailAddress.includes(username.slice(2, -1));
+
+console.log(emailAddress);
+console.log(conatainsWord);
