@@ -48,11 +48,17 @@
 //   console.log(`You have only first name, ${firstName}.`);
 // }
 
-// EMAIL ADDRESS CREATOR
+// // EMAIL ADDRESS CREATOR
 
-let username = 'edinam';
-let emailAddress = username.slice(1, -1) + '@protonmail.com';
-let conatainsWord = emailAddress.includes(username.slice(2, -1));
+// let username = 'EDINAM';
+// let emailAddress = username + '@protonmail.com';
+// let conatainsWord = emailAddress.includes(username);
 
-console.log(emailAddress);
-console.log(conatainsWord);
+// console.log(emailAddress);
+// console.log(conatainsWord);
+
+let sentence = 'The quick brown fox jumps over the lazy dog.';
+let sentenceArray = sentence.split(' ');
+
+console.log(sentenceArray);
+console.log(sentenceArray.join(' '));
