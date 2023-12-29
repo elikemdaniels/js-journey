@@ -57,8 +57,30 @@
 // console.log(emailAddress);
 // console.log(conatainsWord);
 
-let sentence = 'The quick brown fox jumps over the lazy dog.';
+let sentence = 'The quick brown fox jumps over the lazy dog';
 let sentenceArray = sentence.split(' ');
 
-console.log(sentenceArray);
 console.log(sentenceArray.join(' '));
+
+// for (let word = 0; word < sentenceArray.length; word++) {
+//   console.log(sentenceArray[word]);
+// }
+
+// for (word in sentenceArray) {
+//   console.log(sentenceArray[word]);
+// }
+
+// for (let word of sentenceArray) {
+//   console.log(word);
+// }
+let word = 0;
+// while (word < sentenceArray.length) {
+//   console.log(sentenceArray[word]);
+//   word++;
+// }
+
+// DO WHILE LOOP
+do {
+  console.log(sentenceArray[word]);
+  word++;
+} while (word < sentenceArray.length);
