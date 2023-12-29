@@ -171,12 +171,26 @@
 //   return str === str.split('').reverse().join('');
 // }
 
+// function palindrome(str) {
+//   str = str.toLowerCase();
+//   if (str === str.split('').reverse().join('')) {
+//     return `${str} is a palindrome.`;
+//   } else {
+//     return `${str} is not a palindrome.`;
+//   }
+// }
+
+// console.log(palindrome('Redder'));
+
+// Updated function with Array.from(str)
+
 function palindrome(str) {
-  if (str === str.split('').reverse().join('')) {
+  str = str.toLowerCase();
+  if (str === Array.from(str).reverse().join('')) {
     return `${str} is a palindrome.`;
   } else {
     return `${str} is not a palindrome.`;
   }
 }
 
-console.log(palindrome('rtri'));
+console.log(palindrome('Redder'));
