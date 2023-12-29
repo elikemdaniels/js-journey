@@ -60,8 +60,15 @@
 let sentence = 'The quick brown fox jumps over the lazy dog';
 let sentenceArray = sentence.split(' ');
 
-console.log(sentenceArray.join(' '));
-console.log(sentenceArray.slice(1, -1));
+console.log(sentenceArray);
+
+let wordCheker = (word) => {
+  sentenceArray.includes(word)
+    ? console.log(`${word} is in the sentence.`)
+    : console.log(`${word} is not in the sentence.`);
+};
+
+wordCheker('jax');
 
 // for (let word = 0; word < sentenceArray.length; word++) {
 //   console.log(sentenceArray[word]);
