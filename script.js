@@ -61,6 +61,7 @@ let sentence = 'The quick brown fox jumps over the lazy dog';
 let sentenceArray = sentence.split(' ');
 
 console.log(sentenceArray.join(' '));
+console.log(sentenceArray.slice(1, -1));
 
 // for (let word = 0; word < sentenceArray.length; word++) {
 //   console.log(sentenceArray[word]);
