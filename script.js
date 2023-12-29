@@ -124,11 +124,11 @@ let daysOfTheWeek = [
 
 // console.log(loggedDays);
 
-loggedDays = daysOfTheWeek.map((day) => {
-  console.log(day);
-});
+// loggedDays = daysOfTheWeek.map((day) => {
+//   console.log(day);
+// });
 
-console.log(loggedDays);
+// console.log(loggedDays);
 
 // console.log(
 //   `Today is ${daysOfTheWeek[today.getDay()]} and tomorrow is ${
