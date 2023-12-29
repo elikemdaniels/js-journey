@@ -104,15 +104,31 @@
 // let today = new Date();
 // let tomorrow = new Date(today);
 // tomorrow.setDate(tomorrow.getDate() + 1);
-// let daysOfTheWeek = [
-//   'Sunday',
-//   'Monday',
-//   'Tuesday',
-//   'Wednesday',
-//   'Thursday',
-//   'Friday',
-//   'Saturday',
-// ];
+let daysOfTheWeek = [
+  'Sunday',
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday',
+  'Saturday',
+];
+
+// loggedDays = daysOfTheWeek.forEach(function (day) {
+//   console.log(day);
+// });
+
+// loggedDays = daysOfTheWeek.forEach((day) => {
+//   console.log(day);
+// });
+
+// console.log(loggedDays);
+
+loggedDays = daysOfTheWeek.map((day) => {
+  console.log(day);
+});
+
+console.log(loggedDays);
 
 // console.log(
 //   `Today is ${daysOfTheWeek[today.getDay()]} and tomorrow is ${
@@ -184,13 +200,13 @@
 
 // Updated function with Array.from(str)
 
-function palindrome(str) {
-  str = str.toLowerCase();
-  if (str === Array.from(str).reverse().join('')) {
-    return `${str} is a palindrome.`;
-  } else {
-    return `${str} is not a palindrome.`;
-  }
-}
+// function palindrome(str) {
+//   str = str.toLowerCase();
+//   if (str === Array.from(str).reverse().join('')) {
+//     return `${str} is a palindrome.`;
+//   } else {
+//     return `${str} is not a palindrome.`;
+//   }
+// }
 
-console.log(palindrome('Redder'));
+// console.log(palindrome('Gazelle'));
