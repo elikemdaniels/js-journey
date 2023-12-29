@@ -73,14 +73,14 @@ console.log(sentenceArray.join(' '));
 // for (let word of sentenceArray) {
 //   console.log(word);
 // }
-let word = 0;
+// let word = 0;
 // while (word < sentenceArray.length) {
 //   console.log(sentenceArray[word]);
 //   word++;
 // }
 
 // DO WHILE LOOP
-do {
-  console.log(sentenceArray[word]);
-  word++;
-} while (word < sentenceArray.length);
+// do {
+//   console.log(sentenceArray[word]);
+//   word++;
+// } while (word < sentenceArray.length);
