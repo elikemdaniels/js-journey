@@ -209,4 +209,4 @@ let daysOfTheWeek = [
 //   }
 // }
 
-// console.log(palindrome('Gazelle'));
+console.log(palindrome('Gazelle'));
