@@ -210,3 +210,5 @@ let daysOfTheWeek = [
 // }
 
 // console.log(palindrome('Gazelle'));
+
+// Functinoal Programming
