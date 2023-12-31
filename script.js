@@ -284,8 +284,3 @@ counterButton.addEventListener('click', () => {
   counterVariable.textContent = counter();
   console.log(counterVariable.textContent);
 });
-
-resetButton.addEventListener('click', () => {
-  counterVariable.textContent = resetCounter();
-  console.log(counterVariable.textContent);
-});
