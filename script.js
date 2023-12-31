@@ -248,19 +248,39 @@ let daysOfTheWeek = [
 
 // showNames('John', 'Doe', 'Smith', 'Jones', 'Brown');
 
-sayHello('John', 'Doe', 24);
+// sayHello('John', 'Doe', 24);
 
-// VARIABLE SCOPE & CLOSURE
-function sayHello(firstName, lastName, age) {
-  // Function for full name
-  function fullName() {
-    return `${(firstName = 'Max')} ${lastName}`;
-  }
-  // Function for age
-  function ageOfPerson() {
-    return age;
-  }
-  return console.log(
-    `Hello, ${fullName()}. You are ${ageOfPerson()} years old.`
-  );
+// // VARIABLE SCOPE & CLOSURE
+// function sayHello(firstName, lastName, age) {
+//   // Function for full name
+//   function fullName() {
+//     return `${(firstName = 'Max')} ${lastName}`;
+//   }
+//   // Function for age
+//   function ageOfPerson() {
+//     return age;
+//   }
+//   return console.log(
+//     `Hello, ${fullName()}. You are ${ageOfPerson()} years old.`
+//   );
+// }
+
+// COUNTER FUNCTION
+function makeCounter() {
+  let count = 1;
+  return function () {
+    return count++;
+  };
 }
+
+let counter = makeCounter();
+let counterVariable = document.getElementById('counter-variable');
+let counterButton = document.getElementById('counter-button');
+
+counterVariable.textContent = 0;
+
+counterButton.addEventListener('click', () => {
+  counterVariable.textContent = counter();
+});
+
+console.log(counter());

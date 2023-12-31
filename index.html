@@ -21,6 +21,20 @@
           sans-serif;
       }
 
+      h1 {
+        font-size: 6rem;
+      }
+
+      button {
+        background-color: black;
+        color: rgb(249, 240, 229);
+        padding: 1.25rem 2rem;
+        border: 0;
+        border-radius: 0.5rem;
+        font-size: 1.25rem;
+        cursor: pointer;
+      }
+
       /* FORM STYLES */
       .form {
         display: flex;
@@ -31,21 +45,8 @@
   </head>
   <body id="content-body">
     <main id="main">
-      <h1>Username Checker</h1>
-      <form class="form" action="">
-        <input
-          class="form-input"
-          type="text"
-          name="form-username"
-          id="form-username"
-        />
-        <input
-          class="form-input"
-          type="button"
-          value="Check username"
-          id="submit-button"
-        />
-      </form>
+      <h1 id="counter-variable"></h1>
+      <button id="counter-button">Increase count</button>
     </main>
   </body>
 </html>
