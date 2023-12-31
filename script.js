@@ -266,21 +266,19 @@ let daysOfTheWeek = [
 // }
 
 // COUNTER FUNCTION
-let count = 1;
-function makeCounter() {
-  return function () {
-    return count++;
-  };
+let count = 0;
+
+function counter() {
+  return count++;
 }
 
-let counter = makeCounter();
 let counterVariable = document.getElementById('counter-variable');
 let counterButton = document.getElementById('counter-button');
-let resetButton = document.getElementById('reset-button');
 
-counterVariable.textContent = 0;
+counterVariable.textContent = count;
 
 counterButton.addEventListener('click', () => {
-  counterVariable.textContent = counter();
+  counter();
+  counterVariable.textContent = count;
   console.log(counterVariable.textContent);
 });
