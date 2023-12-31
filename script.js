@@ -273,11 +273,6 @@ function makeCounter() {
   };
 }
 
-// RESET COUNTER
-function resetCounter() {
-  return count--;
-}
-
 let counter = makeCounter();
 let counterVariable = document.getElementById('counter-variable');
 let counterButton = document.getElementById('counter-button');
