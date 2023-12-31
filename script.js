@@ -266,8 +266,8 @@ let daysOfTheWeek = [
 // }
 
 // COUNTER FUNCTION
+let count = 0;
 function makeCounter() {
-  let count = 1;
   return function () {
     return count++;
   };
@@ -277,10 +277,10 @@ let counter = makeCounter();
 let counterVariable = document.getElementById('counter-variable');
 let counterButton = document.getElementById('counter-button');
 
-counterVariable.textContent = 0;
+counterVariable.textContent = count;
 
 counterButton.addEventListener('click', () => {
   counterVariable.textContent = counter();
 });
 
-console.log(counter());
+console.log(counterVariable.textContent);
