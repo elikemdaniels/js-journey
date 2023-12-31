@@ -266,18 +266,31 @@ let daysOfTheWeek = [
 // }
 
 // COUNTER FUNCTION
+let count = 1;
 function makeCounter() {
-  let count = 1;
   return function () {
     return count++;
   };
 }
 
+// RESET COUNTER
+function resetCounter() {
+  return count--;
+}
+
 let counter = makeCounter();
 let counterVariable = document.getElementById('counter-variable');
 let counterButton = document.getElementById('counter-button');
+let resetButton = document.getElementById('reset-button');
+
+counterVariable.textContent = 0;
 
 counterButton.addEventListener('click', () => {
   counterVariable.textContent = counter();
+  console.log(counterVariable.textContent);
+});
+
+resetButton.addEventListener('click', () => {
+  counterVariable.textContent = resetCounter();
   console.log(counterVariable.textContent);
 });

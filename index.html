@@ -29,10 +29,15 @@
         background-color: black;
         color: rgb(249, 240, 229);
         padding: 1.25rem 2rem;
-        border: 0;
+        border: 1px solid black;
         border-radius: 0.5rem;
         font-size: 1.25rem;
         cursor: pointer;
+      }
+
+      .reset-button {
+        background-color: rgb(249, 240, 229);
+        color: black;
       }
 
       /* FORM STYLES */
@@ -45,8 +50,9 @@
   </head>
   <body id="content-body">
     <main id="main">
-      <h1 id="counter-variable">0</h1>
+      <h1 id="counter-variable"></h1>
       <button id="counter-button">Increase count</button>
+      <button class="reset-button" id="reset-button">Reset count</button>
     </main>
   </body>
 </html>
