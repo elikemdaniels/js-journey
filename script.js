@@ -248,17 +248,19 @@ let daysOfTheWeek = [
 
 // showNames('John', 'Doe', 'Smith', 'Jones', 'Brown');
 
+sayHello('John', 'Doe', 24);
+
 // VARIABLE SCOPE & CLOSURE
 function sayHello(firstName, lastName, age) {
   // Function for full name
   function fullName() {
-    return `${firstName} ${lastName}`;
+    return `${(firstName = 'Max')} ${lastName}`;
   }
   // Function for age
   function ageOfPerson() {
     return age;
   }
-  console.log(`Hello, ${fullName()}. You are ${ageOfPerson()} years old.`);
+  return console.log(
+    `Hello, ${fullName()}. You are ${ageOfPerson()} years old.`
+  );
 }
-
-sayHello('John', 'Doe', 24);
