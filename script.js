@@ -281,4 +281,7 @@ counterButton.addEventListener('click', () => {
   counter();
   counterVariable.textContent = count;
   console.log(counterVariable.textContent);
+  if (count === 10) {
+    counterButton.disabled = true;
+  }
 });
