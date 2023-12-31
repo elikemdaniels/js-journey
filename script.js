@@ -212,3 +212,38 @@ let daysOfTheWeek = [
 // console.log(palindrome('Gazelle'));
 
 // Functinoal Programming
+// let states = [
+//   'Alabama',
+//   'Alaska',
+//   'Arizona',
+//   'Arkansas',
+//   'California',
+//   'North Dakota',
+//   'South Dakota',
+//   'New Mexico',
+//   'New York',
+// ];
+
+// Function for creating a chained URL of states with hyphen
+// function createUrl(elements) {
+//   let url = [];
+//   elements.forEach((element) => {
+//     url.push(element.toLowerCase().split(/\s+/).join('-'));
+//   });
+//   return url;
+// }
+
+// console.log(createUrl(states));
+
+// Rest operator
+function showNames(firstName, ...restOfNames) {
+  console.log(firstName);
+  console.log(restOfNames);
+  console.log(restOfNames.length);
+  console.log(restOfNames[0]);
+  restOfNames.map((name) => console.log(name));
+  console.log(restOfNames.pop());
+  console.log(`The rest of the names are ${restOfNames.join(', ')}`);
+}
+
+showNames('John', 'Doe', 'Smith', 'Jones', 'Brown');
