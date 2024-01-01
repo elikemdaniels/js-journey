@@ -200,14 +200,14 @@ let daysOfTheWeek = [
 
 // Updated function with Array.from(str)
 
-// function palindrome(str) {
-//   str = str.toLowerCase();
-//   if (str === Array.from(str).reverse().join('')) {
-//     return `${str} is a palindrome.`;
-//   } else {
-//     return `${str} is not a palindrome.`;
-//   }
-// }
+function palindrome(str) {
+  str = str.toLowerCase();
+  if (str === Array.from(str).reverse().join('')) {
+    return `${str} is a palindrome.`;
+  } else {
+    return `${str} is not a palindrome.`;
+  }
+}
 
 // console.log(palindrome('Gazelle'));
 
