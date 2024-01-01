@@ -212,17 +212,17 @@ let daysOfTheWeek = [
 // console.log(palindrome('Gazelle'));
 
 // Functinoal Programming
-let states = [
-  'Alabama',
-  'Alaska',
-  'Arizona',
-  'Arkansas',
-  'California',
-  'North Dakota',
-  'South Dakota',
-  'New Mexico',
-  'New York',
-];
+// let states = [
+//   'Alabama',
+//   'Alaska',
+//   'Arizona',
+//   'Arkansas',
+//   'California',
+//   'North Dakota',
+//   'South Dakota',
+//   'New Mexico',
+//   'New York',
+// ];
 
 // Function for creating a chained URL of states with hyphen
 // function createUrl(elements) {
