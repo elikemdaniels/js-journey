@@ -251,19 +251,19 @@ let daysOfTheWeek = [
 // sayHello('John', 'Doe', 24);
 
 // VARIABLE SCOPE & CLOSURE
-function sayHello(firstName, lastName, age) {
-  // Function for full name
-  function fullName() {
-    return `${(firstName = 'Max')} ${lastName}`;
-  }
-  // Function for age
-  function ageOfPerson() {
-    return age;
-  }
-  return console.log(
-    `Hello, ${fullName()}. You are ${ageOfPerson()} years old.`
-  );
-}
+// function sayHello(firstName, lastName, age) {
+//   // Function for full name
+//   function fullName() {
+//     return `${(firstName = 'Max')} ${lastName}`;
+//   }
+//   // Function for age
+//   function ageOfPerson() {
+//     return age;
+//   }
+//   return console.log(
+//     `Hello, ${fullName()}. You are ${ageOfPerson()} years old.`
+//   );
+// }
 
 // Default Count
 let count = 0;
