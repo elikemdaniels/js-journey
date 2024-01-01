@@ -235,16 +235,16 @@ let daysOfTheWeek = [
 
 // console.log(createUrl(states));
 
-Rest operator
-function showNames(firstName, ...restOfNames) {
-  console.log(firstName);
-  console.log(restOfNames);
-  console.log(restOfNames.length);
-  console.log(restOfNames[0]);
-  restOfNames.map((name) => console.log(name));
-  console.log(restOfNames.pop());
-  console.log(`The rest of the names are ${restOfNames.join(', ')}`);
-}
+// Rest operator
+// function showNames(firstName, ...restOfNames) {
+//   console.log(firstName);
+//   console.log(restOfNames);
+//   console.log(restOfNames.length);
+//   console.log(restOfNames[0]);
+//   restOfNames.map((name) => console.log(name));
+//   console.log(restOfNames.pop());
+//   console.log(`The rest of the names are ${restOfNames.join(', ')}`);
+// }
 
 // showNames('John', 'Doe', 'Smith', 'Jones', 'Brown');
 
