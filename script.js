@@ -265,23 +265,38 @@ let daysOfTheWeek = [
 //   );
 // }
 
-// COUNTER FUNCTION
+// Default Count
 let count = 0;
 
-function counter() {
+// Increase Count Function
+let increaseCount = function () {
   return count++;
-}
+};
+
+// Decrease Count Function
+let decreaseCount = function () {
+  return count--;
+};
 
 let counterVariable = document.getElementById('counter-variable');
-let counterButton = document.getElementById('counter-button');
+const increaseButton = document.getElementById('increase-button');
+const decreaseButton = document.getElementById('decrease-button');
 
 counterVariable.textContent = count;
 
-counterButton.addEventListener('click', () => {
-  counter();
+increaseButton.addEventListener('click', () => {
+  increaseCount();
   counterVariable.textContent = count;
   console.log(counterVariable.textContent);
-  if (count === 10) {
-    counterButton.disabled = true;
-  }
+
+  // Apply disabled styles to increaseButton on condition
+  count === 10
+    ? increaseButton.classList.add('disabled-button')
+    : increaseButton.classList.remove('disabled-button');
+});
+
+decreaseButton.addEventListener('click', () => {
+  decreaseCount();
+  counterVariable.textContent = count;
+  console.log(counterVariable.textContent);
 });
