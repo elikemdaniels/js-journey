@@ -286,17 +286,12 @@ counterVariable.textContent = count;
 
 increaseButton.addEventListener('click', () => {
   increaseCount();
-  counterVariable.textContent = count;
+  counterVariable.innerText = count;
   console.log(counterVariable.textContent);
-
-  // Apply disabled styles to increaseButton on condition
-  count === 10
-    ? increaseButton.classList.add('disabled-button')
-    : increaseButton.classList.remove('disabled-button');
 });
 
 decreaseButton.addEventListener('click', () => {
   decreaseCount();
-  counterVariable.textContent = count;
+  counterVariable.innerText = count;
   console.log(counterVariable.textContent);
 });
