@@ -15,4 +15,4 @@ const characters = document.querySelector('ul');
 // Slelect character, Luke Skywalker using attribute
 const lukeSkywalker = characters.querySelector('[data-type="hero"]');
 
-lukeSkywalker.style.color = 'blue';
+lukeSkywalker.classList.add('red');
