@@ -11,8 +11,8 @@
         margin: 0;
         display: flex;
         flex-direction: column;
-        text-align: center;
-        align-items: center;
+        /* text-align: center; */
+        /* align-items: center; */
         justify-content: center;
         background-color: rgb(249, 240, 229);
         height: 100vh;
@@ -21,8 +21,15 @@
           sans-serif;
       }
 
+      main {
+        width: 100%;
+        max-width: 40rem;
+        margin-inline: auto;
+      }
+
       h1 {
-        font-size: 6rem;
+        margin: 0;
+        font-size: 4rem;
       }
 
       button {
@@ -54,11 +61,11 @@
   </head>
   <body id="content-body">
     <main id="main">
-      <h1 id="counter-variable"></h1>
-      <button class="decrease-button" id="decrease-button">
+      <h1 id="counter-variable">Star Wars Characters</h1>
+      <!-- <button class="decrease-button" id="decrease-button">
         Decrease count
       </button>
-      <button id="increase-button">Increase count</button>
+      <button id="increase-button">Increase count</button> -->
       <!-- List for DOM manipulation -->
       <ul id="star-wars-characters">
         <li class="character luke" data-type="hero">Luke Skywalker</li>

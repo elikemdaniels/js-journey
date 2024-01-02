@@ -1,3 +1,7 @@
-const startWarsCharacters = document.querySelector('#star-wars-characters');
+// DOM MANIPULATION
 
-console.log(startWarsCharacters.);
+// Select charactrs using id
+// const characters = document.querySelector('#star-wars-characters');
+
+// Select characters using tag
+const characters = document.querySelector('ul');
