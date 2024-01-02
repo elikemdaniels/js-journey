@@ -5,3 +5,9 @@
 
 // Select characters using tag
 const characters = document.querySelector('ul');
+
+// Select character, Luke Skywalker, using class
+// const lukeSkywalker = characters.querySelector('luke');
+
+// Select character, Luke Skywalker, using tag
+const lukeSkywalker = characters.querySelector('li');
