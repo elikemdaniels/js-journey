@@ -57,15 +57,29 @@ const mainElement = document.querySelector('main');
 function createModal() {
   const modal = document.createElement('div');
   modal.setAttribute('id', 'modal');
-  modal.classList.add('modal', 'red');
+  modal.classList.add('modal', 'modal-hidden');
   modal.innerHTML = existingModal.innerHTML;
+  // Wait for the next frame to add the visible class so the transition can take effect
+  requestAnimationFrame(() => {
+    modal.classList.add('modal-visible');
+  });
   return modal;
 }
 
 function openCloseModal() {
   const modal = document.querySelector('#modal');
   if (modal) {
-    mainElement.removeChild(modal);
+    // Fade out the modal before removing it
+    modal.classList.remove('modal-visible');
+    modal.classList.add('modal-hidden');
+    // Wait for the transition to finish before removing the modal
+    modal.addEventListener(
+      'transitionend',
+      () => {
+        mainElement.removeChild(modal);
+      },
+      { once: true }
+    );
   } else {
     const newModal = createModal();
     mainElement.insertBefore(newModal, modalButton);
