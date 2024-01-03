@@ -69,6 +69,19 @@
         box-shadow: 0 24px 30px -20px rgba(0, 0, 0, 0.1);
         transition: all 2.3s ease-in-out;
       }
+      /* Initial hidden state of the modal with zero opacity */
+      .modal-hidden {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+      }
+
+      /* Visible state of the modal with full opacity */
+      .modal-visible {
+        visibility: visible;
+        opacity: 1;
+        transition: visibility 0s linear 0s, opacity 0.3s linear;
+      }
 
       /* FORM STYLES */
       .form {
