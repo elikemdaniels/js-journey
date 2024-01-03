@@ -54,6 +54,8 @@ const existingModal = document.querySelector('#modal');
 const modalButton = document.querySelector('#modal-button');
 const mainElement = document.querySelector('main');
 
+modalButton.textContent = 'Hide Modal';
+
 function createModal() {
   const modal = document.createElement('div');
   modal.setAttribute('id', 'modal');
@@ -69,6 +71,7 @@ function createModal() {
 function openCloseModal() {
   const modal = document.querySelector('#modal');
   if (modal) {
+    modalButton.textContent = 'Show Modal';
     // Fade out the modal before removing it
     modal.classList.remove('modal-visible');
     modal.classList.add('modal-hidden');
@@ -81,6 +84,8 @@ function openCloseModal() {
       { once: true }
     );
   } else {
+    // Button content remains the same
+    modalButton.textContent = 'Hide Modal';
     const newModal = createModal();
     mainElement.insertBefore(newModal, modalButton);
   }
