@@ -50,14 +50,14 @@
 // CALLBACK FUNCTION IN ACTION
 // hideShowButton.addEventListener('click', hideHeadingChangeButtonText);
 
-let existingModal = document.querySelector('#modal');
+const existingModal = document.querySelector('#modal');
 const modalButton = document.querySelector('#modal-button');
 const mainElement = document.querySelector('main');
 
 function createModal() {
   const modal = document.createElement('div');
   modal.setAttribute('id', 'modal');
-  modal.classList.add('modal');
+  modal.classList.add('modal', 'red');
   modal.innerHTML = existingModal.innerHTML;
   return modal;
 }
