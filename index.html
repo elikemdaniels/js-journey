@@ -24,7 +24,7 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        background-color: rgb(111, 231, 231);
+        /* background-color: rgb(111, 231, 231); */
         max-width: 50rem;
         margin-inline: auto;
       }
@@ -54,17 +54,19 @@
       }
 
       .modal-button {
-        /* margin-top: auto; */
+        margin-top: auto;
         margin-bottom: 2rem;
-        font-size: 1rem;
+        font-size: 0.75rem;
         border-radius: 10rem;
-        padding: 0.75rem 1rem;
+        padding: 0.57rem 0.725rem;
       }
 
       .modal {
+        margin-top: auto;
         background-color: azure;
         padding: 8rem;
         border-radius: 2rem;
+        box-shadow: 0 24px 30px -20px rgba(0, 0, 0, 0.1);
       }
 
       /* FORM STYLES */
@@ -86,7 +88,7 @@
   </head>
   <body id="content-body">
     <main id="main">
-      <div class="modal"><h1>JavaScript</h1></div>
+      <div class="modal" id="modal"><h1>JavaScript</h1></div>
       <!-- <h1 id="counter-variable">Star Wars Characters</h1> -->
       <!-- <button class="decrease-button" id="decrease-button">
         Decrease count
