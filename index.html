@@ -67,13 +67,12 @@
         padding: 8rem;
         border-radius: 2rem;
         box-shadow: 0 24px 30px -20px rgba(0, 0, 0, 0.1);
-        transition: all 0.3s ease-in-out;
       }
       /* Initial hidden state of the modal with zero opacity */
       .modal-hidden {
         visibility: hidden;
         opacity: 0;
-        transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+        transition: visibility 0s ease-out 0.2s, opacity 0.2s ease-out;
       }
 
       /* Visible state of the modal with full opacity */
