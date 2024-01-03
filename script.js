@@ -43,6 +43,9 @@ function hideHeadingChangeButtonText() {
   heading.classList.toggle('hide');
 }
 
-hideShowButton.addEventListener('click', () => {
-  hideHeadingChangeButtonText();
-});
+// hideShowButton.addEventListener('click', () => {
+//   hideHeadingChangeButtonText();
+// });
+
+// CALLBACK FUNCTION IN ACTION
+hideShowButton.addEventListener('click', hideHeadingChangeButtonText);
