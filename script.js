@@ -101,8 +101,4 @@ console.log(reserveBasket);
 console.log(fruitBasket);
 reserveBasket = fruitBasket.splice(2, 2, 'kiwi');
 console.log(fruitBasket);
-
-const array = [3, 4, 7];
-array.splice(2, 0, 5, 6);
-
-console.log(array);
+console.log(reserveBasket);
