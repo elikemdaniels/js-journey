@@ -48,25 +48,25 @@
 // // });
 
 // // CALLBACK FUNCTION IN ACTION
-hideShowButton.addEventListener('click', hideHeadingChangeButtonText);
+// hideShowButton.addEventListener('click', hideHeadingChangeButtonText);
 
-const existingModal = document.querySelector('#modal');
-const modalButton = document.querySelector('#modal-button');
-const mainElement = document.querySelector('main');
+// const existingModal = document.querySelector('#modal');
+// const modalButton = document.querySelector('#modal-button');
+// const mainElement = document.querySelector('main');
 
-modalButton.textContent = 'Hide Modal';
+// modalButton.textContent = 'Hide Modal';
 
-function createModal() {
-  const modal = document.createElement('div');
-  modal.setAttribute('id', 'modal');
-  modal.classList.add('modal', 'modal-hidden');
-  modal.innerHTML = existingModal.innerHTML;
-  // Wait for the next frame to add the visible class so the transition can take effect
-  requestAnimationFrame(() => {
-    modal.classList.add('modal-visible');
-  });
-  return modal;
-}
+// function createModal() {
+//   const modal = document.createElement('div');
+//   modal.setAttribute('id', 'modal');
+//   modal.classList.add('modal', 'modal-hidden');
+//   modal.innerHTML = existingModal.innerHTML;
+//   // Wait for the next frame to add the visible class so the transition can take effect
+//   requestAnimationFrame(() => {
+//     modal.classList.add('modal-visible');
+//   });
+//   return modal;
+// }
 
 function openCloseModal() {
   const modal = document.querySelector('#modal');
