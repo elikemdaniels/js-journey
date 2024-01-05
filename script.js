@@ -94,19 +94,19 @@
 // modalButton.addEventListener('click', openCloseModal);
 
 // ARRAYS
-let fruitBasket = [
-  'apple',
-  'banana',
-  'orange',
-  'pear',
-  'pineapple',
-  'grapefruit',
-  'guava',
-];
-console.log(fruitBasket);
-let reserveBasket = fruitBasket.splice(0, 2, 'grapefruit');
-console.log(reserveBasket);
-console.log(fruitBasket);
-reserveBasket = fruitBasket.splice(1, 3, 'kiwi', 'watermelon');
-console.log(fruitBasket);
-console.log(reserveBasket);
+// let fruitBasket = [
+//   'apple',
+//   'banana',
+//   'orange',
+//   'pear',
+//   'pineapple',
+//   'grapefruit',
+//   'guava',
+// ];
+// console.log(fruitBasket);
+// let reserveBasket = fruitBasket.splice(0, 2, 'grapefruit');
+// console.log(reserveBasket);
+// console.log(fruitBasket);
+// reserveBasket = fruitBasket.splice(1, 3, 'kiwi', 'watermelon');
+// console.log(fruitBasket);
+// console.log(reserveBasket);
