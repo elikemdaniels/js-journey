@@ -106,6 +106,6 @@ console.log(fruitBasket);
 let reserveBasket = fruitBasket.splice(0, 2, 'grapefruit');
 console.log(reserveBasket);
 console.log(fruitBasket);
-reserveBasket = fruitBasket.splice(2, 2, 'kiwi');
+reserveBasket = fruitBasket.splice(2, 2, 'kiwi', 'watermelon');
 console.log(fruitBasket);
 console.log(reserveBasket);
