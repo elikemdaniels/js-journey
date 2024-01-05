@@ -101,6 +101,7 @@ let fruitBasket = [
   'pear',
   'pineapple',
   'grapefruit',
+  'guava',
 ];
 console.log(fruitBasket);
 let reserveBasket = fruitBasket.splice(0, 2, 'grapefruit');
